@@ -29,12 +29,12 @@ def SystDiffEq(y, t, J,m,m1,l,r,alph,c,g):
 
 
 J = 20
-m = 2
+m = 1
 m1 = 1
 l = 1
-r = 0.2
-c = 20
-alph = 30
+r = 1
+c = 1
+alph = 0.5
 g = 9.81
 
 T = n.linspace(0, 10, 100)
